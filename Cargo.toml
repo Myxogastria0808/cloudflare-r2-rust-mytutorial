@@ -1,0 +1,9 @@
+[package]
+name = "cloudflare-r2-rust-mytutorial"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+aws-sdk-s3 = { version = "1.69.0", features = ["behavior-version-latest"] }
+dotenvy = "0.15.7"
+tokio = { version = "1.43.0", features = ["full"] }
